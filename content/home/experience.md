@@ -19,6 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Postdoctoral Researcher in Software Engineering"
+  company = "Carnegie Mellon University"
+  company_url = ""
+  location = "Pittsburgh, USA and Gothenburg, Sweden"
+  date_start = "2020-08-01"
+  date_end = "2022-07-15"
+  description = """Research position funded by the Knut and Alice Wallenberg Foundation \\
+  Main collaborator: David Garlan"""
+  
+
+[[experience]]
   title = "PhD in Computer Science and Engineering"
   company = "Chalmers University of Technology (Software Engineering Division)"
   company_url = ""
