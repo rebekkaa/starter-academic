@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/rebekkaa/rebekkaa.github.io.git
+	branch = master

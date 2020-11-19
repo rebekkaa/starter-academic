@@ -11,11 +11,7 @@ authors:
 - Patrizio Pelliccione
 - Rogardt Heldal
 tags:
-- '"software architecture;upfront architecture;software architecture evolution;multiple
-  architecture descriptions;architectural inconsistencies;future-state architecture;architecture
-  description;Computer architecture;Guidelines;Companies;Software;Software architecture;Stakeholders;Conferences;architectural
-  inconsistencies;architectural conformance;agile architecture;boundary objects;survey;questionnaire;empirical
-  software engineering"'
+- '""'
 categories: []
 date: '2019-03-01'
 lastmod: 2020-11-18T16:19:56+01:00
