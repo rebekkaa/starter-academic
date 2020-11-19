@@ -27,6 +27,6 @@ design:
   spacing:
     padding: ["10px", "0", "10px", "0"]
 ---
-Do you want to get in touch to say hi, discuss ideas, or collaborate?
+Would you like to get in touch to say hi, discuss ideas, or collaborate?
 
 You can reach me at wohlrab@cmu.edu

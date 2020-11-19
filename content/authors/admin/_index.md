@@ -67,7 +67,7 @@ highlight_name: false
 # Previously, I have investigated how architecture descriptions, interfaces, and requirements information models can serve as boundary objects.
 ---
 
-I am a postdoctoral researcher in Software Engineering at [Carnegie Mellon University](https://www.cmu.edu/), where I am a member of the [ABLE Research Group](http://www.cs.cmu.edu/~able/index.html) at the School of Computer Science.
+I am a postdoctoral researcher in Software Engineering at [Carnegie Mellon University](https://www.cmu.edu/), where I am part of the [ABLE Research Group](http://www.cs.cmu.edu/~able/index.html).
 Before starting at CMU, I was affiliated with Chalmers University of Technology in Gothenburg, Sweden, where I also received my PhD.
 My research is supported by a [WASP](https://wasp-sweden.org/) Postdoctoral Scholarship by the Knut and Alice Wallenberg Foundation.
 
