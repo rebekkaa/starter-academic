@@ -1,37 +1,31 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Rebekka Wohlrab
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher in Software Engineering
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Carnegie Mellon University
+  url: "https://www.cmu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+# interests:
+# - Artificial Intelligence
+# - Computational Linguistics
+# - Information Retrieval
 
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+commentable: false  # Allow visitors to comment? Supported by the Page, Post, and Docs content types.
+editable: true  # Allow visitors to edit the page? Supported by the Page, Post, and Docs content types.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -40,16 +34,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: 'mailto:wohlrab@cmu.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://scholar.google.com/citations?user=zfeSRmsAAAAJ
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-5449-7900
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Rebekka_Wohlrab
+- icon: twitter
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://twitter.com/rebekkawohlrab
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,18 +54,25 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "wohlrab@cmu.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
+# Previously, I have investigated how architecture descriptions, interfaces, and requirements information models can serve as boundary objects.
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a postdoctoral researcher in Software Engineering at [Carnegie Mellon University](https://www.cmu.edu/), where I am a member of the [ABLE Research Group](http://www.cs.cmu.edu/~able/index.html) at the School of Computer Science.
+Before starting at CMU, I was affiliated with Chalmers University of Technology in Gothenburg, Sweden, where I also received my PhD.
+My research is supported by a [WASP](https://wasp-sweden.org/) Postdoctoral Scholarship by the Knut and Alice Wallenberg Foundation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am interested in software architecture, continuous software engineering, requirements engineering, and self-adaptive systems.
+I have developed the concept of [Living Boundary Objects](https://research.chalmers.se/en/publication/515968), which focuses on documents or models that support coordination between multidisciplinary teams and create a common understanding in large-scale systems development.
+Many of my studies have been performed in collaboration with automotive companies.
+
+You can reach me at wohlrab@cmu.edu

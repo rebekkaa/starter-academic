@@ -5,12 +5,12 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
-subtitle = ""
+title = "Awards and Honors"
+subtitle = "since 2017"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "2006"
 
 # Accomplishments.
 #   Add/remove as many `[[item]]` blocks below as you like.
@@ -19,33 +19,67 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Knut and Alice Wallenberg Foundation"
+  title = "Wallenberg Foundation and WASP International Postdoctoral Scholarship"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
-  description = ""
+  date_start = "2020-01-01"
+  date_end = "2022-01-01"
+  description = "Wallenberg Foundation and WASP International Postdoctoral Scholarship at Carnegie Mellon University"
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "International Conference on Product-Focused Software Process Improvement"
+  title = "Best Paper Award at PROFES'19"
+  url = ""
+  date_start = "2019-01-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "Best Paper Award for our paper [*Challenges of Scaled Agile for Safety-Critical Systems*](https://link.springer.com/chapter/10.1007/978-3-030-35333-9_26), co-authored with Jan-Philipp Steghöfer, Eric Knauss, and Jennifer Horkoff"
+
+[[item]]
+  organization = "IEEE International Conference on Software Architecture"
+  title = "Best Paper Award at ICSA'19"
+  url = ""
+  date_start = "2019-01-01"
+  date_end = ""
+  description = "Best Paper Award for our paper [*Improving the Consistency and Usefulness of Architecture Descriptions: Guidelines for Architects*](https://ieeexplore.ieee.org/abstract/document/8703919), co-authored with Ulf Eliasson, Patrizio Pelliccione, Rogardt Heldal"
+
+[[item]]
+  organization = "International Conference on Software and System Process"
+  title = "Best Paper Award at ICSSP'18 (Research Track)"
+  url = ""
+  date_start = "2018-01-01"
+  date_end = ""
+  description = "Best Paper Award for our paper [*Boundary Objects in Agile Practices: Continuous Management of Systems Engineering Artifacts in the Automotive*](https://dl.acm.org/doi/10.1145/3202710.3203155), co-authored with Patrizio Pelliccione, Eric Knauss, and Mats Larsson"
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "SIGSOFT"
+  title = "SIGSOFT CAPS award"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  date_start = "2017-01-01"
+  date_end = ""
+  description = "Merit-based travel grant for attending ICSE'17 (1200 USD)"
+
+# [[item]]
+  # organization = "University of Paderborn"
+  # title = "Best BSc graduate of the year 2013"
+  # url = ""
+  # date_start = "2013-01-01"
+  # date_end = ""
+  # description = "Award for the highest-ranking BSc graduate of the year in Computer Science at the University of Paderborn"
+
+# [[item]]
+  # organization = "University of Paderborn"
+  # title = "Emeriti Prize 2013"
+  # url = ""
+  # date_start = "2013-01-01"
+  # date_end = ""
+  # description = "Scholarship for 12 months awarded by former professors of the University of Paderborn"
+
+# [[item]]
+  # organization = "Studienfonds OWL"
+  # title = "Deutschlandstipendium"
+  # url = ""
+  # date_start = "2010-01-01"
+  # date_end = "2015-01-01"
+  # description = "Academic excellence scholarship by the Federal Government of Germany and German businesses/foundations"
 
 +++
