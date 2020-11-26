@@ -29,14 +29,17 @@ design:
 ---
 ## Program Committee Member and Reviewer
 * Program Committee Member, ICSA'21
+* Program Committee Member, ICSSP/ICGSE 2021
+* Program Committee Member, ICSSP/ICGSE Doctoral Symposium 2021
 * Program Committee Member, RE@Next! Track at RE'21
 * Program Committee Member, Automotive Software Engineering Workshop '21
 * Program Committee Member, ICSSP'20
 * Program Committee Member, ICSSP'19
 * Sub-Reviewer, REFSQ'18
 
-* Reviewer, Journal of Software: Evolution and Process
 * Reviewer, IEEE Software
+* Reviewer, Empirical Software Engineering Journal
+* Reviewer, Journal of Software: Evolution and Process
 
 ## Conference Organization
 * Publicity \& Social Media Chair at RE'21

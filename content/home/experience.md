@@ -22,24 +22,26 @@ date_format = "Jan 2006"
   title = "Postdoctoral Researcher in Software Engineering"
   company = "Carnegie Mellon University"
   company_url = ""
-  location = "Pittsburgh, USA and Gothenburg, Sweden"
+  location = "Pittsburgh, USA"
   date_start = "2020-08-01"
-  date_end = "2022-07-15"
+  date_end = ""
   description = """Research position funded by the Knut and Alice Wallenberg Foundation \\
-  Main collaborator: David Garlan"""
+  Development of _Runtime Boundary Objects_, focusing on self-adaptive systems and software architecture \\
+  Main collaborator: David Garlan """
   
 
 [[experience]]
   title = "PhD in Computer Science and Engineering"
-  company = "Chalmers University of Technology (Software Engineering Division)"
+  company = "Chalmers University of Technology"
   company_url = ""
   location = "Gothenburg, Sweden"
   date_start = "2016-04-01"
   date_end = "2020-04-15"
-  description = "Thesis:  Living Boundary Objects to Support Agile Inter-Team Coordination at Scale"
+  description = """Thesis:  Living Boundary Objects to Support Agile Inter-Team Coordination at Scale \\
+  Advisors: Patrizio Pelliccione and Eric Knauss"""
   
  [[experience]]
-  title = "Business Analyst and Application Engineer"
+  title = "Application Engineer/Business Analyst"
   company = "Systemite AB"
   company_url = ""
   location = "Gothenburg, Sweden"
