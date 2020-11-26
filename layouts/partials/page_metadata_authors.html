@@ -1,0 +1,7 @@
+{{/* Display author list. */}}
+
+{{- $taxonomy := "authors" }}
+{{ range $index, $value := (.GetTerms $taxonomy) }}
+	{{- if gt $index 0 }}, {{ end -}}
+	<span>{{ .LinkTitle }}</span>
+{{- end -}}
