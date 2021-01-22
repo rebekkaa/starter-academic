@@ -6,3 +6,7 @@
 public/
 
 *.bib
+.DS_Store
+**/.DS_Store
+content/publication/mypublications.bib
+content/publication/new.bib
