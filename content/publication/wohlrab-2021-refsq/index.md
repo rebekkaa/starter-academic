@@ -34,4 +34,7 @@ publication_types:
 abstract: ''
 publication: '*27th International Working Conference on Requirement Engineering: Foundation
   for Software Quality*'
+doi: 10.1007/978-3-030-73128-1_8
+url_pdf: https://rebekkaa.github.io/files/2021_REFSQ_WohlrabGarlan.pdf
+
 ---

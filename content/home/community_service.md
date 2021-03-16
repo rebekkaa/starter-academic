@@ -37,6 +37,7 @@ design:
 * Program Committee Member, ICSSP'19
 * Sub-Reviewer, REFSQ'18
 
+* Reviewer, Communications of the ACM
 * Reviewer, IEEE Software
 * Reviewer, Empirical Software Engineering Journal
 * Reviewer, Journal of Software: Evolution and Process
