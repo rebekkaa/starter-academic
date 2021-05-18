@@ -43,6 +43,7 @@ design:
 * Reviewer, Journal of Software: Evolution and Process
 
 ## Conference Organization
+* Publication Co-Chair at ICSA'22
 * Proceedings Chair at SEAMS'22
 * Publicity \& Social Media Chair at RE'21
 * Student Volunteers Chair, SPLC'18
