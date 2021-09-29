@@ -28,13 +28,12 @@ design:
     padding: ["10px", "0", "10px", "0"]
 ---
 ## Program Committee Member and Reviewer
-* Program Committee Member, ICSA'21
-* Program Committee Member, ICSSP/ICGSE 2021
+* Program Committee Member, ICSA'21, '22
+* Program Committee Member, ICSSP/ICGSE'21, '22
 * Program Committee Member, ICSSP/ICGSE Doctoral Symposium 2021
 * Program Committee Member, RE@Next! Track at RE'21
-* Program Committee Member, Automotive Software Engineering Workshop '21
-* Program Committee Member, ICSSP'20
-* Program Committee Member, ICSSP'19
+* Program Committee Member, Automotive Software Engineering Workshop '21, '22
+* Program Committee Member, ICSSP'19, '20
 * Sub-Reviewer, REFSQ'18
 
 * Reviewer, Communications of the ACM
@@ -43,6 +42,7 @@ design:
 * Reviewer, Journal of Software: Evolution and Process
 
 ## Conference Organization
+* Posters and Tool Demo Co-Chair at RE'22
 * Publication Co-Chair at ICSA'22
 * Proceedings Chair at SEAMS'22
 * Publicity \& Social Media Chair at RE'21
