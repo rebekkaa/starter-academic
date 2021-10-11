@@ -28,23 +28,31 @@ design:
     padding: ["10px", "0", "10px", "0"]
 ---
 ## Program Committee Member and Reviewer
-* Program Committee Member, ICSA'21, '22
-* Program Committee Member, ICSSP/ICGSE'21, '22
-* Program Committee Member, ICSSP/ICGSE Doctoral Symposium 2021
-* Program Committee Member, RE@Next! Track at RE'21
-* Program Committee Member, Automotive Software Engineering Workshop '21, '22
-* Program Committee Member, ICSSP'19, '20
-* Sub-Reviewer, REFSQ'18
+* ICSA 2022, PC Member
+* ICSSP/ICGSE 2022, PC Member
+* Automotive Software Engineering Workshop 2022, PC Member
+* ICSA 2021, PC Member
+* ICSSP/ICGSE'2021, PC Member
+* RE@Next! Track at RE'21, PC Member
+* ICSSP/ICGSE Doctoral Symposium 2021, PC Member
+* Automotive Software Engineering Workshop 2021, PC Member
+* ICSSP/ICGSE'2020, PC Member
+* ICSSP/ICGSE'2019, PC Member
+* REFSQ'2018, Sub-Reviewer
 
-* Reviewer, Communications of the ACM
-* Reviewer, IEEE Software
-* Reviewer, Empirical Software Engineering Journal
-* Reviewer, Journal of Software: Evolution and Process
+* Communications of the ACM, Reviewer
+* IEEE Software, Reviewer
+* Empirical Software Engineering Journal, Reviewer
+* Journal of Systems & Software, Reviewer
+* Journal of Software: Evolution and Process, Reviewer
 
 ## Conference Organization
-* Posters and Tool Demo Co-Chair at RE'22
-* Publication Co-Chair at ICSA'22
-* Proceedings Chair at SEAMS'22
-* Publicity \& Social Media Chair at RE'21
-* Student Volunteers Chair, SPLC'18
-* Student Volunteer, ICSE'18, ICSE'17, ICSA'17, and SPLC'17
+* RE 2022, Posters and Tool Demo Co-Chair
+* ICSA 2022, Publication Co-Chair
+* SEAMS 2022, Proceedings Chair
+* RE 2021, Publicity \& Social Media Chair
+* SPLC 2018, Student Volunteers Chair
+* ICSE 2018, Student Volunteer
+* ICSE 2017, Student Volunteer
+* ICSA 2017, Student Volunteer
+* SPLC 2017, Student Volunteer
