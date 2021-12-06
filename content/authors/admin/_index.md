@@ -68,11 +68,9 @@ highlight_name: false
 ---
 
 I am a postdoctoral researcher in Software Engineering at [Carnegie Mellon University](https://www.cmu.edu/), where I am part of the [ABLE Research Group](http://www.cs.cmu.edu/~able/index.html).
-Before starting at CMU, I was affiliated with Chalmers University of Technology in Gothenburg, Sweden, where I also received my PhD.
-My research is supported by a [WASP](https://wasp-sweden.org/) Postdoctoral Scholarship by the Knut and Alice Wallenberg Foundation.
+Prior to that, I was affiliated with [Chalmers University of Technology](https://www.chalmers.se/en/departments/cse/organisation/se/Pages/default.aspx) in Gothenburg, Sweden, where I also received my PhD. I graduated with a Master's degree in Computer Science with distinction from [Paderborn University](https://www.uni-paderborn.de/en/university/), Germany.
 
-I am interested in software architecture, continuous software engineering, requirements engineering, and self-adaptive systems.
-I have developed the concept of [Living Boundary Objects](https://research.chalmers.se/en/publication/515968), which focuses on documents or models that support coordination between multidisciplinary teams and create a common understanding in large-scale systems development.
-Many of my studies have been performed in collaboration with automotive companies.
+My research interests include requirements engineering, software architecture, and self-adaptive systems.
+I perform empirical studies in these areas and investigate, develop, and assess tools and techniques to engineer understandable and high-quality software systems.
 
 You can reach me at wohlrab@cmu.edu
