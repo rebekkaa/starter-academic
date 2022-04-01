@@ -36,6 +36,6 @@ publication_types:
 abstract: ''
 publication: '*Proceedings of the 17th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2022)*'
 doi:
-url_pdf: #https://rebekkaa.github.io/files/2022_SEAMS2022.pdf
+url_pdf: https://rebekkaa.github.io/files/Wohlrab2022-SEAMS-RuntimeQA.pdf
 
 ---
