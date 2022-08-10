@@ -20,11 +20,11 @@ date_format = "2006"
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"
-  title = "Research Funding for Assistant Professor Position"
+  title = "Repatriation grant for assistant professor position"
   url = ""
   date_start = "2022-01-01"
   date_end = "2024-01-01"
-  description = "Supported by the Wallenberg AI, Autonomous Systems and Software Program (WASP)"
+  description = "Funding for two years of my pre-tenure research. Supported by the Wallenberg AI, Autonomous Systems and Software Program (WASP)"
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"

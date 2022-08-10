@@ -67,7 +67,7 @@ highlight_name: false
 # Previously, I have investigated how architecture descriptions, interfaces, and requirements information models can serve as boundary objects.
 ---
 
-I am an Assistant Professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. During 2020-2022, I was a postdoctoral researcher at [Carnegie Mellon University](https://cmu.edu/).
+I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/), where I was a postdoctoral researcher during 2020-2022.
 
 I hold a PhD in Computer Science and Engineering from [Chalmers University of Technology](https://www.chalmers.se/en/departments/cse/organisation/se/Pages/default.aspx) and a BSc and MSc in Computer Science from [Paderborn University](https://www.uni-paderborn.de/), Germany.
 
