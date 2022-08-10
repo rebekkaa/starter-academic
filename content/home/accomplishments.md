@@ -20,6 +20,14 @@ date_format = "2006"
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"
+  title = "Research Funding for Assistant Professor Position"
+  url = ""
+  date_start = "2022-01-01"
+  date_end = "2024-01-01"
+  description = "Supported by the Wallenberg AI, Autonomous Systems and Software Program (WASP)"
+
+[[item]]
+  organization = "Knut and Alice Wallenberg Foundation"
   title = "Wallenberg Foundation and WASP International Postdoctoral Scholarship"
   url = ""
   date_start = "2020-01-01"

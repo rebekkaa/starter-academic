@@ -28,8 +28,10 @@ design:
     padding: ["10px", "0", "10px", "0"]
 ---
 ## Program Committee Member and Reviewer
+* [ICSA 2023](https://icsa-conferences.org/2023/), PC Member
+* [RE 2023](https://conf.researchr.org/home/RE-2022), PC Member
 * [ICSE SEIP 2023](https://conf.researchr.org/track/icse-2023/icse-2023-SEIP), PC Member
-* [SE 2023](https://se-2022.gi.de/), PC Member
+* [SE 2023](https://se-2023.gi.de/), PC Member
 * [ICSA 2022](https://icsa-conferences.org/2022/), PC Member
 * [ICSSP/ICGSE 2022](https://resources.sei.cmu.edu/news-events/events/icssp/), PC Member
 * [Automotive Software Engineering Workshop 2022](https://ase-workshop.github.io/2022/), PC Member
@@ -50,6 +52,7 @@ design:
 * [Journal of Software: Evolution and Process](https://onlinelibrary.wiley.com/journal/20477481), Reviewer
 
 ## Conference Organization
+* [SE 2023](https://se-2023.gi.de/), Student Research Competition Co-Chair
 * [EASE 2022](https://conf.researchr.org/home/ease-2022), Industrial PC Co-Chair
 * [RE 2022](https://conf.researchr.org/home/RE-2022), Posters and Tool Demo Co-Chair
 * [ICSA 2022](https://icsa-conferences.org/2022/), Publication Co-Chair

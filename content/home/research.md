@@ -30,7 +30,7 @@ design:
 I am interested in human-in-the-loop autonomous systems. These **self-adaptive systems** adapt their behavior or structure in response to changes in their environment. They are increasingly built to interact with humans.
 It is often difficult for humans to understand a self-adaptive system’s decisions and to specify their decision criteria. (When) is it worth it to ramp up security features, although that might compromise performance? Different quality attributes (such as security, performance, and cost) need to be traded off against each other and what is desirable might change over time.
 
-To address these issues, I create techniques to explain self-adaptive systems and to capture people’s (potentially changing) preferences. I also do empirical research to study these problems in large industrial companies.
+To address these issues, I create techniques to explain self-adaptive systems and to capture people’s (potentially changing) preferences. I also do empirical research to study these problems in large-scale industrial settings.
 
 My research focuses on the following questions:
 * How can we elicit preferences and goals that people deem important in self-adaptive systems? [[REFSQ 2021](/publication/wohlrab-2021-refsq/)[, REJ 2022](/publication/wohlrab-2021-rej/)]
