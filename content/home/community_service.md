@@ -28,6 +28,7 @@ design:
     padding: ["10px", "0", "10px", "0"]
 ---
 ## Program Committee Member and Reviewer
+* [SEAMS 2023](https://conf.researchr.org/home/seams-2023), PC Member
 * [ICSA 2023](https://icsa-conferences.org/2023/), PC Member
 * [RE 2023](https://conf.researchr.org/home/RE-2022), PC Member
 * [ICSE SEIP 2023](https://conf.researchr.org/track/icse-2023/icse-2023-SEIP), PC Member
