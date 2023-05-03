@@ -1,17 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Aligning Architecture with Business Goals in the Automotive Domain
+title: 'Guidelines for Artifacts to Support Industry-Relevant Research on Self-Adaptation'
 subtitle: ''
-summary: 'ICSA 2021'
+summary: 'ACM SIGSOFT Software Engineering Notes'
 authors:
-- Alessio Bucaioni
-- Patrizio Pelliccione
-- Rebekka Wohlrab
-tags: []
+- Danny Weyns
+- Ilias Gerostathopoulos
+- ..., Rebekka Wohlrab
+tags:
+- '""'
 categories: []
-date: '2021-01-01'
-lastmod: 2021-01-22T17:50:44+01:00
+date: '2022-10-01'
+lastmod: 2022-10-18T16:19:56+01:00
 featured: false
 draft: false
 
@@ -29,9 +30,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-01-22T16:54:00.740213Z'
+publishDate: '2022-10-01T15:34:53.822385Z'
 publication_types:
-- '1'
+- '2'
 abstract: ''
-publication: '*IEEE International Conference on Software Architecture (ICSA 2021)*'
+publication: '*ACM SIGSOFT Software Engineering Notes*'
+doi:
+url_pdf: 
 ---

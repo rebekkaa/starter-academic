@@ -1,17 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Aligning Architecture with Business Goals in the Automotive Domain
+title: 'Investigating Software Engineering Artifacts in DevOps Through the Lens of Boundary Objects'
 subtitle: ''
-summary: 'ICSA 2021'
+summary: 'Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)'
 authors:
-- Alessio Bucaioni
-- Patrizio Pelliccione
+- Christoph Matthies
+- Robert Heinrich
 - Rebekka Wohlrab
-tags: []
+tags:
+- '""'
 categories: []
-date: '2021-01-01'
-lastmod: 2021-01-22T17:50:44+01:00
+date: '2023-02-01'
+lastmod: 2023-02-18T16:19:56+01:00
 featured: false
 draft: false
 
@@ -29,9 +30,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-01-22T16:54:00.740213Z'
+publishDate: '2023-02-01T15:34:53.822385Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*IEEE International Conference on Software Architecture (ICSA 2021)*'
+publication: '*Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)*'
+doi:
+url_pdf:
 ---

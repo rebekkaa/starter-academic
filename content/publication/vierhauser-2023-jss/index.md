@@ -1,19 +1,19 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Explaining Quality Attribute Tradeoffs in Automated Planning for Self-Adaptive Systems'
+title: 'AMon: A Domain-Specific Language and Framework for Adaptive Monitoring of Cyber-Physical Systems'
 subtitle: ''
 summary: 'Journal of Systems and Software'
 authors:
+- Michael Vierhauser
 - Rebekka Wohlrab
-- Javier Cámara
-- David Garlan
-- Bradley Schmerl
+- Marco Stadler
+- Jane Cleland-Huang
 tags:
 - '""'
 categories: []
-date: '2022-10-01'
-lastmod: 2022-10-18T16:19:56+01:00
+date: '2023-02-01'
+lastmod: 2023-02-18T16:19:56+01:00
 featured: true
 draft: false
 
@@ -31,11 +31,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-10-01T15:34:53.822385Z'
+publishDate: '2023-02-01T15:34:53.822385Z'
 publication_types:
 - '2'
 abstract: ''
 publication: '*Journal of Systems and Software*'
 doi:
-url_pdf: https://rebekkaa.github.io/files/2022_explaining_tradeoffs.pdf
+url_pdf: https://rumors-cloud.se.jku.at/s/KxDmEswqEw3g6Jm
 ---

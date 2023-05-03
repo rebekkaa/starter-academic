@@ -1,17 +1,19 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Aligning Architecture with Business Goals in the Automotive Domain
+title: 'ExTrA: Explaining architectural design tradeoff spaces via dimensionality reduction'
 subtitle: ''
-summary: 'ICSA 2021'
+summary: 'Journal of Systems and Software'
 authors:
-- Alessio Bucaioni
-- Patrizio Pelliccione
+- Javier Cámara
 - Rebekka Wohlrab
-tags: []
+- David Garlan
+- Bradley Schmerl
+tags:
+- '""'
 categories: []
-date: '2021-01-01'
-lastmod: 2021-01-22T17:50:44+01:00
+date: '2023-01-01'
+lastmod: 2023-01-18T16:19:56+01:00
 featured: false
 draft: false
 
@@ -29,9 +31,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-01-22T16:54:00.740213Z'
+publishDate: '2023-01-01T15:34:53.822385Z'
 publication_types:
-- '1'
+- '2'
 abstract: ''
-publication: '*IEEE International Conference on Software Architecture (ICSA 2021)*'
+publication: '*Journal of Systems and Software*'
+doi:
+url_pdf: https://www.sciencedirect.com/science/article/pii/S0164121222002540
 ---
