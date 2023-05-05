@@ -17,6 +17,13 @@ date_format = "2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[item]]
+  organization = "IT Faculty at the University of Gothenburg"
+  title = "Pedagogical Prize 2023"
+  url = ""
+  date_start = "2023-01-01"
+  date_end = ""
+  description = "[Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/) that rewards pedagogical efforts in the IT Faculty domain. 100,000 SEK grant."
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"
