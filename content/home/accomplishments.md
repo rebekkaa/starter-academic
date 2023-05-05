@@ -23,7 +23,7 @@ date_format = "2006"
   url = ""
   date_start = "2023-01-01"
   date_end = ""
-  description = "[Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/) that rewards pedagogical efforts in the IT Faculty domain. 100,000 SEK grant."
+  description = "[Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/undervisning-pedagogik/pedagogiskt-pris/?languageId=100001) that rewards pedagogical efforts in the IT Faculty domain. 100,000 SEK grant."
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"

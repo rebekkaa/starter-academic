@@ -17,15 +17,6 @@ subtitle: Current interests
 
 design:
   columns: "2"
-  #background:
-    #image: headers/bubbles-wide.jpg
-    #image_darken: 0.6
-    #image_parallax: true
-    #image_position: center
-    #image_size: cover
-    #text_color_light: true
-  spacing:
-    padding: ["10px", "0", "10px", "0"]
 ---
 I am interested in human-on-the-loop autonomous systems. These systems adapt their behavior or structure in response to changes in their environment. They commonly interact with humans.
 Self-adaptive systems make a lot of decisions autonomously. It is still desirable to involve humans and help them make decisions that are difficult to automate. Those decisions are often connected to tradeoffs, e.g., when deciding how much to prioritize different competing quality attributes (such as security, performance, and cost). It is often difficult for humans to understand the consequences of decisions and to specify decision criteria. When is it worth it to ramp up security features, although that might compromise performance? Those trade-offs depend on the current context of the system and what is desirable might change over time.
