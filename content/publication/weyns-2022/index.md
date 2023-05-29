@@ -36,5 +36,5 @@ publication_types:
 abstract: ''
 publication: '*ACM SIGSOFT Software Engineering Notes*'
 doi:
-url_pdf: 
+url_pdf: https://arxiv.org/pdf/2206.12492.pdf
 ---

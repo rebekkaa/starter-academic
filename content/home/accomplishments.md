@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Awards and Honors"
-subtitle = "since 2017"
+subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -23,7 +23,7 @@ date_format = "2006"
   url = ""
   date_start = "2023-01-01"
   date_end = ""
-  description = "[Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/undervisning-pedagogik/pedagogiskt-pris/?languageId=100001) that rewards pedagogical efforts in the IT Faculty domain. 100,000 SEK grant."
+  description = "[Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/undervisning-pedagogik/pedagogiskt-pris/?languageId=100001) that rewards pedagogical efforts in the IT Faculty domain. 100,000 SEK."
 
 [[item]]
   organization = "Knut and Alice Wallenberg Foundation"
