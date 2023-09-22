@@ -28,6 +28,7 @@ design:
     padding: ["10px", "0", "10px", "0"]
 ---
 ## Program Committee Member and Reviewer
+* [SEAMS Artifact Track 2024](https://conf.researchr.org/home/seams-2024), PC Member
 * [ICSA 2024](https://icsa-conferences.org/2024/), PC Member
 * [SST 2023](https://sst23.xitaso.com/), PC Member
 * [SEAMS 2023](https://conf.researchr.org/home/seams-2023), PC Member
