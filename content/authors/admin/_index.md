@@ -7,6 +7,9 @@ superuser: true
 
 # Role/position
 role: Assistant Professor
+last_name: Wohlrab
+user_groups:
+  - PI
 
 # Organizations/Affiliations
 organizations:
@@ -15,6 +18,27 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
+
+# Interests to show in About widget
+interests:
+ - Requirements Engineering
+ - Software Architecture
+ - Autonomous Systems
+
+# Education to show in About widget
+education:
+  courses:
+    - course: Postdoc
+      institution: Carnegie Mellon University
+      year: 2020-2022
+    - course: PhD in Computer Science and Engineering
+      institution: Chalmers University of Technology
+      year: 2020
+    - course: BSc and MSc in Computer Science
+      institution: Paderborn University
+      year: 2016
+
+
 
 # interests:
 # - Artificial Intelligence
@@ -61,17 +85,16 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-# user_groups:
-# - Researchers
-# - Visitors
-# Previously, I have investigated how architecture descriptions, interfaces, and requirements information models can serve as boundary objects.
+user_groups:
+ - Researchers
+#I do research in the areas of requirements engineering, software architecture, and self-adaptive/autonomous systems.
+#I hold a PhD in Computer Science and Engineering from [Chalmers University of Technology](https://www.chalmers.se/en/departments/cse/organisation/se/Pages/default.aspx) and a BSc and MSc in Computer Science from [Paderborn University](https://www.uni-paderborn.de/), Germany.
+
 ---
 
-I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/), where I was a postdoctoral researcher during 2020-2022. \
-I hold a PhD in Computer Science and Engineering from [Chalmers University of Technology](https://www.chalmers.se/en/departments/cse/organisation/se/Pages/default.aspx) and a BSc and MSc in Computer Science from [Paderborn University](https://www.uni-paderborn.de/), Germany.
+I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/), where I was a postdoctoral researcher during 2020-2022.
 
 Throughout my PhD, postdoc, and assistant professorship, my research has been partially funded by the [Wallenberg AI, Autonomous Systems and Software Program (WASP)](https://wasp-sweden.org/).
-
-I do research in the areas of self-adaptive systems, software architecture, and requirements engineering. You can find a description of my research interests [below](/#research).
+You can find a description of my research interests [below](/#research).
 
 You can reach me at wohlrab@chalmers.se
