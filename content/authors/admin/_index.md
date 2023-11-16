@@ -28,6 +28,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: Assistant Professor
+      institution: Chalmers University of Technology
+      year: since 2022
     - course: Postdoc
       institution: Carnegie Mellon University
       year: 2020-2022
@@ -90,8 +93,6 @@ highlight_name: false
 
 ---
 
-I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/).
-
-Throughout my PhD, postdoc, and assistant professorship, my research has been partially funded by the [Wallenberg AI, Autonomous Systems and Software Program (WASP)](https://wasp-sweden.org/).
+I am a WASP assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty member at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/).
 
 You can reach me at wohlrab@chalmers.se

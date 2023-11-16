@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.biography
+  - block: about_cust.biography
     id: about
     content:
       title: About me
@@ -24,7 +24,7 @@ sections:
         padding: 30px 0 30px 0;
   - block: people
     content:
-      title: My (Growing) Team
+      title: Meet the Team
       subtitle: "Note: I have recently acquired more funding, for 2 postdocs and 2 more PhD students. Stay tuned for recruitment ads!"
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
@@ -42,18 +42,4 @@ sections:
       show_role: true
       show_social: false
       columns: '2'
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      columns: '2'
-      view: citation
 ---
