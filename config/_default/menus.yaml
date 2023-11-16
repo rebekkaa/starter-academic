@@ -8,20 +8,14 @@ main:
     url: '#about'
     weight: 10
   - name: Research
-    url: '#research'
+    url: 'research'
     weight: 13
-  - name: News
-    url: '#recent_news'
-    weight: 16
-  - name: Awards
-    url: '#accomplishments'
+  - name: Teaching
+    url: 'teaching'
     weight: 20
   - name: Service
-    url: '#community_service'
+    url: 'service'
     weight: 30
-  - name: Publications
-    url: '#featured'
-    weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

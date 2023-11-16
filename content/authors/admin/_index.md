@@ -6,7 +6,7 @@ title: Rebekka Wohlrab
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: WASP Assistant Professor
 last_name: Wohlrab
 user_groups:
   - PI
@@ -85,16 +85,13 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
- - Researchers
 #I do research in the areas of requirements engineering, software architecture, and self-adaptive/autonomous systems.
 #I hold a PhD in Computer Science and Engineering from [Chalmers University of Technology](https://www.chalmers.se/en/departments/cse/organisation/se/Pages/default.aspx) and a BSc and MSc in Computer Science from [Paderborn University](https://www.uni-paderborn.de/), Germany.
 
 ---
 
-I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/), where I was a postdoctoral researcher during 2020-2022.
+I am an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/).
 
 Throughout my PhD, postdoc, and assistant professorship, my research has been partially funded by the [Wallenberg AI, Autonomous Systems and Software Program (WASP)](https://wasp-sweden.org/).
-You can find a description of my research interests [below](/#research).
 
 You can reach me at wohlrab@chalmers.se
