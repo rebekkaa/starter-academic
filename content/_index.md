@@ -25,7 +25,7 @@ sections:
   - block: people
     content:
       title: Meet the Team
-      subtitle: "Note: I have recently acquired more funding, for 2 postdocs and 2 more PhD students. Stay tuned for recruitment ads!"
+      subtitle: "Note: I will soon recruit 2 more postdocs and 2 more PhD students. Contact me if you're interested!"
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:

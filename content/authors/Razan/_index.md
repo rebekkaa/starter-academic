@@ -22,7 +22,7 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - at Chalmers, working on behavior trees for robotics
+  - at Chalmers, working on behavior trees and MDE for robotics
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

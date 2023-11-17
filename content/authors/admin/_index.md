@@ -94,5 +94,3 @@ highlight_name: false
 ---
 
 I am a WASP assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty member at the Institute for Software Research at [Carnegie Mellon University](https://cmu.edu/).
-
-You can reach me at wohlrab@chalmers.se
