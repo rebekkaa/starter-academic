@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Vlad Indykov
+title: Vladislav Indykov
 
 
 # Is this the primary user of the site?

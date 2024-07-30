@@ -3,8 +3,8 @@
 title: Tiziano Santilli
 
 # Full name (for SEO)
-first_name: Razan
-last_name: Ghzouli
+first_name: Tiziano
+last_name: Santilli
 
 
 # Is this the primary user of the site?
@@ -22,7 +22,7 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - at University of L'Aquila, working on continuous compliance for critical systems
+  - at Gran Sasso Science Institute, working on continuous compliance for safety-/security-critical systems
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

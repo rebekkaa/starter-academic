@@ -25,12 +25,12 @@ sections:
   - block: people
     content:
       title: Meet the Team
-      subtitle: "Note: I will soon recruit 2 more postdocs and 2 more PhD students. Contact me if you're interested!"
+      subtitle: ""
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Postdocs
           - PhD Students
+          - Postdocs
           - Administration
           - Researchers
           - Visitors

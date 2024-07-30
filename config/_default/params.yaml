@@ -18,11 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
+    description: "Rebekka Wohlrab's personal website"
+    twitter: 'rebekkawohlrab'
   verification:
     google: ''
     baidu: ''

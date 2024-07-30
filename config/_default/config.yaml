@@ -21,10 +21,8 @@ removePathAccents: true
 ############################
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 
 ############################
 ## ADVANCED
@@ -38,8 +36,6 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
@@ -47,12 +43,10 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 100
   anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
   publication_type: publication_types
   author: authors
 markup:
@@ -61,11 +55,6 @@ related:
   threshold: 80
   includeNewer: true
   toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
 
 security:
   funcs:

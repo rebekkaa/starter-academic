@@ -12,7 +12,10 @@ sections:
       title: Teaching
       text: "I enjoy teaching and have been involved in various teaching activities, some of which are listed below.
 
-In 2023, I received the IT Faculty [Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/) for the innovative use of teaching methods. I am very grateful for the recognition!
+## Awards
+
+* 2023: **IT Faculty [Pedagogical Prize](https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/)**:
+Prize for the innovative use of teaching methods, University of Gothenburg
 
 ## Courses
 
@@ -31,9 +34,12 @@ Examiner and main lecturer, BSc course, Chalmers | University of Gothenburg
 
 ## Other teaching activities
 
-I am co-organizing the following events:
+I have been involved in organizing the following events:
 
 * [International Software Architecture PhD School (iSAPS) 2024](https://www.lorentzcenter.nl/search.html?qry=International+Software+Architecture+PhD+School) in Leiden
 
-* [Girls Code Club](https://www.chalmers.se/en/collaborate-with-us/activities-for-schools/girls-code-club/), a coding bootcamp for high-school girls"
+* [Girls Code Club](https://www.chalmers.se/en/collaborate-with-us/activities-for-schools/girls-code-club/), a coding bootcamp for high-school girls
+
+* [Hackathon for Bachelor Students](https://www.gu.se/en/study-gothenburg/hackathons). In collaboration with the company Systemite"
+
 ---

@@ -1,5 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
+#[ICSSP/ICGSE Doctoral Symposium 2021](https://conf.researchr.org/series/icssp%2Bicgse), PC Member
+
 title:
 date: 2022-10-24
 type: landing
@@ -21,6 +23,8 @@ Conferences I have been involved in recently:
 
 * [SEAMS Artifact Track 2024](https://conf.researchr.org/home/seams-2024), PC Member
 
+* [SECPPS Workshop 2024](https://github.com/RickRabiser/secpps-ws), PC Member
+
 * [SEAMS 2023](https://conf.researchr.org/home/seams-2023), PC Member
 
 * [ICSA 2023](https://icsa-conferences.org/2023/), PC Member
@@ -31,7 +35,7 @@ Conferences I have been involved in recently:
 
 ## Journals
 
-I have reviewed for several journals: [Information and Software Technology](https://www.sciencedirect.com/journal/information-and-software-technology), [Communications of the ACM](https://cacm.acm.org/), [Empirical Software Engineering](https://www.springer.com/journal/10664), [Journal of Systems & Software](https://www.journals.elsevier.com/journal-of-systems-and-software), [IEEE Software](https://www.computer.org/csdl/magazine/so), [Journal of Software: Evolution and Process](https://onlinelibrary.wiley.com/journal/20477481), ...
+I have reviewed for several journals: [Information and Software Technology](https://www.sciencedirect.com/journal/information-and-software-technology), [Communications of the ACM](https://cacm.acm.org/), [Empirical Software Engineering](https://www.springer.com/journal/10664), [Journal of Systems & Software](https://www.journals.elsevier.com/journal-of-systems-and-software), [IEEE Software](https://www.computer.org/csdl/magazine/so), [Journal of Software: Evolution and Process](https://onlinelibrary.wiley.com/journal/20477481), [Requirements Engineering](https://link.springer.com/journal/766), ...
 
 ## Previous Events
 
@@ -53,6 +57,8 @@ I have reviewed for several journals: [Information and Software Technology](http
 
 * [ICSSP/ICGSE 2022](https://resources.sei.cmu.edu/news-events/events/icssp/), PC Member
 
+* [Automotive Software Engineering Workshop 2022, 2021](https://ase-workshop.github.io/2022/), PC Member
+
 * [RE 2021](https://conf.researchr.org/home/RE-2021), Publicity & Social Media Chair
 
 * [ICSA 2021](https://icsa-conferences.org/2021/), PC Member
@@ -70,10 +76,6 @@ I have reviewed for several journals: [Information and Software Technology](http
 * [SPLC 2018](https://splc.net/), Student Volunteers Chair
 
 * [ICSE 2018](https://www.icse2018.org/), [ICSE 2017](https://icse2017.gatech.edu/),
-[ICSA 2017](https://icsa-conferences.org/), [SPLC 2017](https://splc.net/), Student Volunteer
+[ICSA 2017](https://icsa-conferences.org/), [SPLC 2017](https://splc.net/), Student Volunteer"
 
-<!-- * [Automotive Software Engineering Workshop 2022](https://ase-workshop.github.io/2022/), PC Member-->
-<!-- * [ICSSP/ICGSE Doctoral Symposium 2021](https://conf.researchr.org/series/icssp%2Bicgse), PC Member-->
-<!-- * [Automotive Software Engineering Workshop 2021](https://ase-workshop.github.io/2021/), PC Member-->
-<!-- [SECPPS Workshop 2024](https://github.com/RickRabiser/secpps-ws), PC Member-->"
 ---
