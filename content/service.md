@@ -15,6 +15,8 @@ sections:
       text: "
 Conferences I have been involved in recently:
 
+* [SEAMS 2025](https://conf.researchr.org/home/seams-2025), PC Member
+
 * [ACSOS 2024](https://conf.researchr.org/home/acsos-2024), Workshop Co-Chair
 
 * [ICSA 2024](https://icsa-conferences.org/2024/), PC Member

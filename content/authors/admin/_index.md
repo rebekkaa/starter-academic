@@ -93,6 +93,6 @@ highlight_name: false
 
 ---
 
-I am a tenure-track assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an Adjunct Faculty in the Software and Societal Systems Department (S3D) at [Carnegie Mellon University](https://cmu.edu/).
+I am a tenure-track assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden. I am also an adjunct faculty member in the Software and Societal Systems Department (S3D) at [Carnegie Mellon University](https://cmu.edu/).
 
 I lead a research group that is partially supported by the [Wallenberg AI, Autonomous Systems and Software Program (WASP)](https://wasp-sweden.org/) funded by the Knut and Alice Wallenberg Foundation.

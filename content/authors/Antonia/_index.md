@@ -17,8 +17,8 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - at Chalmers, working on requirements conflicts for autonomous systems
-
+  - at Chalmers, funded by a WASP academic PhD project
+  
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the

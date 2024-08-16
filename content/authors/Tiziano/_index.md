@@ -22,7 +22,7 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - at Gran Sasso Science Institute, working on continuous compliance for safety-/security-critical systems
+  - at Gran Sasso Science Institute
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

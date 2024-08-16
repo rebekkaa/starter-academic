@@ -1,18 +1,24 @@
 ---
 # Display name
-title: Vladislav Indykov
-
+title: Matei Schiopu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD Student (co-supervisor)
+role: PhD Student (main supervisor)
 
+# Organizations/Affiliations
+organizations:
+  - name: Stanford University
+    url: ''
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - at Chalmers/GU, funded by VR
-
+  - at Chalmers, funded by WASP
+    
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
