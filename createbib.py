@@ -189,22 +189,18 @@ for file in files:
 
 with open("../CV/bbl/statistics.txt", 'w') as nf:
     # open files to merge in read mode
-    nf.write(str("Journal count: "))
     nf.write(str(counts[1]))
-    nf.write("\n")
+    nf.write(str(" journal papers, "))
 
-    nf.writelines(str("Conference count: "))
     nf.write(str(counts[2]))
-    nf.write("\n")
-
-    nf.writelines(str("Workshop count: "))
+    nf.write(" peer-reviewed conference papers (including A*- and A-ranked conferences (FSE, ICSE, RE, ASE, SEAMS, ICSA, ...), ")
     nf.write(str(counts[0]))
-    nf.write("\n")
+    nf.write(" peer-reviewed workshop papers")
 
 
-    nf.writelines(str("Total count: "))
-    nf.write(str(sum(counts)))
-    nf.write("\n")
+    #nf.writelines(str("Total count: "))
+    #nf.write(str(sum(counts)))
+    #nf.write("\n")
     # insert a newline after reading each file
     nf.close()
 
