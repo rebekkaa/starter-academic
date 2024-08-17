@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'What is Continuous Compliance?'
+title: 'Continuous Compliance in the Automotive Industry'
 subtitle: ''
 summary: 'IEEE Software'
 authors:

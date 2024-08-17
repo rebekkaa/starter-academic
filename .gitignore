@@ -4,6 +4,8 @@
 # Hugo
 /resources/
 public/
+cv/
+createbib.py
 
 *.bib
 .DS_Store
@@ -12,3 +14,4 @@ content/publication/mypublications.bib
 content/publication/new.bib
 *.txt
 content/home/.Rhistory
+createbib.py
