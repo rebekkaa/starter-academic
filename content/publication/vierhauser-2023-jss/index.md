@@ -37,5 +37,5 @@ publication_types:
 abstract: ''
 publication: '*Journal of Systems and Software*'
 doi:
-url_pdf: https://rumors-cloud.se.jku.at/s/KxDmEswqEw3g6Jm
+url_pdf: https://research.chalmers.se/publication/532511/file/532511_Fulltext.pdf
 ---

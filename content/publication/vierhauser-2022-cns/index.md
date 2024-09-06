@@ -36,5 +36,5 @@ publication_types:
 abstract: ''
 publication: '*Conference on Communications and Network Security (CNS): Cyber Resilience Workshop*'
 doi:
-url_pdf: 
+url_pdf: https://rumors-cloud.se.jku.at/s/KxDmEswqEw3g6Jm
 ---

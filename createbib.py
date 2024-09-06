@@ -173,12 +173,12 @@ os.system("pdflatex cv/workshops.tex")
 
 label_bbls(counts)
 
-myfiles = get_files_with_extension(Path("."), ["bib","pdf","tex"])
+myfiles = get_files_with_extension(Path("."), ["bib","tex"])
 for myfile in myfiles:
     if os.path.isfile(myfile):
         os.rename(myfile.name, "cv/"+myfile.name)
 
-myfiles = get_files_with_extension(Path("."), ["bib","pdf","tex", "bbl"])
+myfiles = get_files_with_extension(Path("."), ["bib","tex", "bbl"])
 for myfile in myfiles:
     if os.path.isfile(myfile):
         os.rename(myfile.name, "../CV/bbl/"+myfile.name)
@@ -193,7 +193,7 @@ with open("../CV/bbl/statistics.txt", 'w') as nf:
     nf.write(str(" journal papers, "))
 
     nf.write(str(counts[2]))
-    nf.write(" peer-reviewed conference papers (including A*- and A-ranked conferences (FSE, ICSE, RE, ASE, SEAMS, ICSA, ...), ")
+    nf.write(" peer-reviewed conference papers (including A*- and A-ranked conferences, e.g., FSE, ICSE, RE, ASE, SEAMS, ...), ")
     nf.write(str(counts[0]))
     nf.write(" peer-reviewed workshop papers")
 
