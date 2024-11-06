@@ -6,7 +6,7 @@ authors:
 - Jennifer Horkoff
 - Rebekka Wohlrab
 date: '2019-01-01'
-publishDate: '2024-09-28T18:20:04.445686Z'
+publishDate: '2024-11-06T20:24:34.897740Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the 20th International Conference on Product-Focused Software

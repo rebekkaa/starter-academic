@@ -6,7 +6,7 @@ authors:
 - Rebekka Wohlrab
 - Richard Berntsson Svensson
 date: '2024-01-01'
-publishDate: '2024-09-28T18:20:04.371413Z'
+publishDate: '2024-11-06T20:24:34.818654Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the 50th Euromicro Conference Series on Software Engineering

@@ -5,7 +5,7 @@ authors:
 - Patrizio Pelliccione
 - Rebekka Wohlrab
 date: '2021-01-01'
-publishDate: '2024-09-28T18:20:04.422235Z'
+publishDate: '2024-11-06T20:24:34.874226Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the IEEE International Conference on Software Architecture

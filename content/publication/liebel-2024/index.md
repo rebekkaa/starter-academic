@@ -29,7 +29,7 @@ authors:
 - Silvia Abrahão
 - Vasco Amaral
 date: '2024-01-01'
-publishDate: '2024-09-28T18:20:04.297976Z'
+publishDate: '2024-11-06T20:24:34.959408Z'
 publication_types:
 - article-journal
 publication: '*Software and Systems Modeling*'

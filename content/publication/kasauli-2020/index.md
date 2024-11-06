@@ -9,7 +9,7 @@ authors:
 - Jennifer Horkoff
 - Salome Maro
 date: '2020-01-01'
-publishDate: '2024-09-28T18:20:04.435959Z'
+publishDate: '2024-11-06T20:24:34.888381Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the International Conference on Software and System Processes

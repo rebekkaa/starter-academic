@@ -7,7 +7,7 @@ authors:
 - Raffaela Groner
 - Rebekka Wohlrab
 date: '2024-01-01'
-publishDate: '2024-09-28T18:20:04.385394Z'
+publishDate: '2024-11-06T20:24:34.836241Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the 18th European Conference on Software Architecture (ECSA

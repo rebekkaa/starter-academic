@@ -7,7 +7,7 @@ authors:
 - Thorsten Berger
 - Rebekka Wohlrab
 date: '2018-04-01'
-publishDate: '2024-09-28T18:20:04.464880Z'
+publishDate: '2024-11-06T20:24:34.917203Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the 2018 IEEE International Conference on Software Architecture

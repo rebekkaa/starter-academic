@@ -10,7 +10,7 @@ authors:
 - Filip Lange
 - Pierre Gildert
 date: '2018-08-01'
-publishDate: '2024-09-28T18:20:04.469534Z'
+publishDate: '2024-11-06T20:24:34.922209Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the 26th IEEE International Requirements Engineering Conference

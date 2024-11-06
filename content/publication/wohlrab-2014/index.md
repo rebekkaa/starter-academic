@@ -7,7 +7,7 @@ authors:
 - Anne Koziolek
 - Steffen Becker
 date: '2014-01-01'
-publishDate: '2024-09-28T18:20:04.492866Z'
+publishDate: '2024-11-06T20:24:34.945466Z'
 publication_types:
 - paper-conference
 publication: "*Proc. of the 22nd IEEE International Requirements Engineering Conference

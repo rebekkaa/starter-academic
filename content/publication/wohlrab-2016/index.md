@@ -7,7 +7,7 @@ authors:
 - Salome Maro
 - Anthony Anjorin
 date: '2016-09-01'
-publishDate: '2024-09-28T18:20:04.483646Z'
+publishDate: '2024-11-06T20:24:34.936176Z'
 publication_types:
 - paper-conference
 publication: "*Proc. of the 24th IEEE International Requirements Engineering Conference

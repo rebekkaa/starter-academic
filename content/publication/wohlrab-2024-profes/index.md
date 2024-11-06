@@ -11,7 +11,7 @@ authors:
 - Lucas Gren
 - Robert Heinrich
 date: '2024-01-01'
-publishDate: '2024-09-28T18:20:04.399011Z'
+publishDate: '2024-11-06T20:24:34.850527Z'
 publication_types:
 - paper-conference
 publication: '*Proc. of the International Conference on Product-Focused Software Process
