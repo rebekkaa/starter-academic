@@ -15,27 +15,27 @@ sections:
       text: "
 Conferences I have been involved in recently:
 
-* [ICSA 2025](https://icsa-conferences.org/2025/), PC Member
+- [ICSA 2025](https://icsa-conferences.org/2025/), PC Member
 
-* [SEAMS 2025](https://conf.researchr.org/home/seams-2025), PC Member
+- [SEAMS 2025](https://conf.researchr.org/home/seams-2025), PC Member
 
-* [ACSOS 2024](https://conf.researchr.org/home/acsos-2024), Workshop Co-Chair
+- [ACSOS 2024](https://conf.researchr.org/home/acsos-2024), Workshop Co-Chair
 
-* [ICSA 2024](https://icsa-conferences.org/2024/), PC Member
+- [ICSA 2024](https://icsa-conferences.org/2024/), PC Member
 
-* [RE Workshop Track 2024](https://conf.researchr.org/home/RE-2024), PC Member
+- [RE Workshop Track 2024](https://conf.researchr.org/home/RE-2024), PC Member
 
-* [SEAMS Artifact Track 2024](https://conf.researchr.org/home/seams-2024), PC Member
+- [SEAMS Artifact Track 2024](https://conf.researchr.org/home/seams-2024), PC Member
 
-* [SECPPS Workshop 2024](https://github.com/RickRabiser/secpps-ws), PC Member
+- [SECPPS Workshop 2024](https://github.com/RickRabiser/secpps-ws), PC Member
 
-* [SEAMS 2023](https://conf.researchr.org/home/seams-2023), PC Member
+- [SEAMS 2023](https://conf.researchr.org/home/seams-2023), PC Member
 
-* [ICSA 2023](https://icsa-conferences.org/2023/), PC Member
+- [ICSA 2023](https://icsa-conferences.org/2023/), PC Member
 
-* [RE 2023](https://conf.researchr.org/home/RE-2022), PC Member
+- [RE 2023](https://conf.researchr.org/home/RE-2022), PC Member
 
-* [ICSE SEIP 2023](https://conf.researchr.org/track/icse-2023/icse-2023-SEIP), PC Member
+- [ICSE SEIP 2023](https://conf.researchr.org/track/icse-2023/icse-2023-SEIP), PC Member
 
 ## Journals
 
@@ -43,43 +43,45 @@ I have reviewed for several journals: [Information and Software Technology](http
 
 ## Previous Events
 
-* [SE 2023](https://se-2023.gi.de/), Student Research Competition Co-Chair
+- [ITARC 2024](https://itarc.nu/), Program Co-Chair
 
-* [SST 2023](https://sst23.xitaso.com/), PC Member
+- [SE 2023](https://se-2023.gi.de/), Student Research Competition Co-Chair
 
-* [SE 2023](https://se-2023.gi.de/), PC Member
+- [SST 2023](https://sst23.xitaso.com/), PC Member
 
-* [EASE 2022](https://conf.researchr.org/home/ease-2022), Industrial PC Co-Chair
+- [SE 2023](https://se-2023.gi.de/), PC Member
 
-* [RE 2022](https://conf.researchr.org/home/RE-2022), Posters and Tool Demo Co-Chair
+- [EASE 2022](https://conf.researchr.org/home/ease-2022), Industrial PC Co-Chair
 
-* [ICSA 2022](https://icsa-conferences.org/2022/), Publication Co-Chair
+- [RE 2022](https://conf.researchr.org/home/RE-2022), Posters and Tool Demo Co-Chair
 
-* [SEAMS 2022](https://conf.researchr.org/home/seams-2022), Proceedings Chair
+- [ICSA 2022](https://icsa-conferences.org/2022/), Publication Co-Chair
 
-* [ICSA 2022](https://icsa-conferences.org/2022/), PC Member
+- [SEAMS 2022](https://conf.researchr.org/home/seams-2022), Proceedings Chair
 
-* [ICSSP/ICGSE 2022](https://resources.sei.cmu.edu/news-events/events/icssp/), PC Member
+- [ICSA 2022](https://icsa-conferences.org/2022/), PC Member
 
-* [Automotive Software Engineering Workshop 2022, 2021](https://ase-workshop.github.io/2022/), PC Member
+- [ICSSP/ICGSE 2022](https://resources.sei.cmu.edu/news-events/events/icssp/), PC Member
 
-* [RE 2021](https://conf.researchr.org/home/RE-2021), Publicity & Social Media Chair
+- [Automotive Software Engineering Workshop 2022, 2021](https://ase-workshop.github.io/2022/), PC Member
 
-* [ICSA 2021](https://icsa-conferences.org/2021/), PC Member
+- [RE 2021](https://conf.researchr.org/home/RE-2021), Publicity & Social Media Chair
 
-* [ICSSP/ICGSE 2021](https://conf.researchr.org/series/icssp%2Bicgse), PC Member
+- [ICSA 2021](https://icsa-conferences.org/2021/), PC Member
 
-* [RE@Next! Track at RE 2021](https://conf.researchr.org/home/RE-2021), PC Member
+- [ICSSP/ICGSE 2021](https://conf.researchr.org/series/icssp%2Bicgse), PC Member
 
-* [ICSSP/ICGSE 2020](https://conf.researchr.org/series/icssp%2Bicgse), PC Member
+- [RE@Next! Track at RE 2021](https://conf.researchr.org/home/RE-2021), PC Member
 
-* [ICSSP 2019](https://2019.icse-conferences.org/track/icssp-2019-papers), PC Member
+- [ICSSP/ICGSE 2020](https://conf.researchr.org/series/icssp%2Bicgse), PC Member
 
-* [REFSQ'2018](https://refsq.upc.edu/2015/2018/welcome/index.html), Sub-Reviewer
+- [ICSSP 2019](https://2019.icse-conferences.org/track/icssp-2019-papers), PC Member
 
-* [SPLC 2018](https://splc.net/), Student Volunteers Chair
+- [REFSQ'2018](https://refsq.upc.edu/2015/2018/welcome/index.html), Sub-Reviewer
 
-* [ICSE 2018](https://www.icse2018.org/), [ICSE 2017](https://icse2017.gatech.edu/),
+- [SPLC 2018](https://splc.net/), Student Volunteers Chair
+
+- [ICSE 2018](https://www.icse2018.org/), [ICSE 2017](https://icse2017.gatech.edu/),
 [ICSA 2017](https://icsa-conferences.org/), [SPLC 2017](https://splc.net/), Student Volunteer"
 
 ---

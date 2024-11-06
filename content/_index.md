@@ -1,8 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: ""
 date: 2022-10-24
 type: landing
+title: Rebekka Wohlrab's personal website
+
+design:
+  # Default section spacing
+  spacing: "6rem"
 
 sections:
   - block: about_cust.biography
@@ -11,7 +16,7 @@ sections:
       title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block:
+  - block: markdown
     id: news
     content:
       title: Recent news

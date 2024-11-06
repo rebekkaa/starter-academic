@@ -59,7 +59,7 @@ def get_files_with_extension(
         return matches
 
 def sort_files():
-    filenames = ["./workshops.bib", "./journals.bib", "./conferences.bib"]
+    filenames = ["./workshops.bib", "./journals.bib", "./conferences.bib", "./unrefereed.bib"]
 
     for filename in filenames:
         entries = []
@@ -79,13 +79,13 @@ def sort_files():
             f.close()
 
 def label_bbls(counts):
-    filenames = ["./workshops.bbl", "./journals.bbl", "./conferences.bbl"]
-    labeled_filenames = ["./labeled_workshops.bbl", "./labeled_journals.bbl", "./labeled_conferences.bbl"]
+    filenames = ["./workshops.bbl", "./journals.bbl", "./conferences.bbl",  "./unrefereed.bbl"]
+    labeled_filenames = ["./labeled_workshops.bbl", "./labeled_journals.bbl", "./labeled_conferences.bbl",  "./labeled_unrefereed.bbl"]
 
     for file in labeled_filenames:
         if os.path.isfile(file):  
             os.remove(str(file))
-    indexnames = ["W-", "J-", "C-"]
+    indexnames = ["W-", "J-", "C-", "U-"]
     fileindex = 0
     for filename in filenames:
         i = counts[fileindex]+1
@@ -109,7 +109,7 @@ def label_bbls(counts):
 
 # Function to merge all files in a folder
 def merge_files(folder_path, counts):    
-    myfiles = ["./workshops.bib", "./journals.bib", "./conferences.bib"]
+    myfiles = ["./workshops.bib", "./journals.bib", "./conferences.bib", "./unrefereed.bib"]
     for myfile in myfiles:
         if os.path.isfile(myfile):
             os.remove(myfile)
@@ -128,36 +128,45 @@ def merge_files(folder_path, counts):
             if file.endswith('.bib'):
                 with open(os.path.join(folder, file)) as f:
                     lines_in_file = f.readlines()
-                    if 'workshop' in (''.join(lines_in_file)).lower():
-                        with open(my_folder_path+"/workshops.bib", 'a') as nf:
+                    if 'acm sigsoft software engineering notes' in (''.join(lines_in_file)).lower():
+                        with open(my_folder_path+"/unrefereed.bib", 'a') as nf:
                         # open files to merge in read mode
                             nf.writelines(lines_in_file)
                             # insert a newline after reading each file
                             nf.write("\n")
-                            counts[0]+=1
+                            counts[3]+=1
                             nf.close()
                     else:
-                        if 'article' in (''.join(lines_in_file)).lower():
-                            with open(my_folder_path+"/journals.bib", 'a') as nf:
-                            # open files to merge in read mode
+                        if 'workshop' in (''.join(lines_in_file)).lower():
+                            with open(my_folder_path+"/workshops.bib", 'a') as nf:
+                                # open files to merge in read mode
                                 nf.writelines(lines_in_file)
                                 # insert a newline after reading each file
                                 nf.write("\n")
-                                counts[1]+=1
-                                nf.close()        
+                                counts[0]+=1
+                                nf.close()
                         else:
-                            if 'inproceedings' in (''.join(lines_in_file)).lower():
-                                with open(my_folder_path+"/conferences.bib", 'a') as nf:
-                                    # open files to merge in read mode
+                            if 'article' in (''.join(lines_in_file)).lower():
+                                with open(my_folder_path+"/journals.bib", 'a') as nf:
+                                # open files to merge in read mode
                                     nf.writelines(lines_in_file)
                                     # insert a newline after reading each file
                                     nf.write("\n")
-                                    counts[2]+=1
-                                    nf.close()
+                                    counts[1]+=1
+                                    nf.close()        
+                            else:
+                                if 'inproceedings' in (''.join(lines_in_file)).lower():
+                                    with open(my_folder_path+"/conferences.bib", 'a') as nf:
+                                        # open files to merge in read mode
+                                        nf.writelines(lines_in_file)
+                                        # insert a newline after reading each file
+                                        nf.write("\n")
+                                        counts[2]+=1
+                                        nf.close()
     return counts
 
 # Call function from the main folder with the subfolders
-counts = merge_files("./content/publication", [0,0,0])
+counts = merge_files("./content/publication", [0,0,0,0])
 sort_files()
 
 os.system("latex cv/journals.tex")
@@ -170,6 +179,10 @@ os.system("pdflatex cv/conferences.tex")
 os.system("latex cv/workshops.tex")
 os.system("bibtex workshops.aux")
 os.system("pdflatex cv/workshops.tex")
+
+os.system("latex cv/unrefereed.tex")
+os.system("bibtex unrefereed.aux")
+os.system("pdflatex cv/unrefereed.tex")
 
 label_bbls(counts)
 
@@ -193,7 +206,9 @@ with open("../CV/bbl/statistics.txt", 'w') as nf:
     nf.write(str(" journal papers, "))
 
     nf.write(str(counts[2]))
-    nf.write(" peer-reviewed conference papers (including A*- and A-ranked conferences, e.g., FSE, ICSE, RE, ASE, SEAMS, ...), ")
+    nf.write(" peer-reviewed conference papers, ")
+    nf.write(str(counts[3]))
+    nf.write(" unrefereed publications, and ")
     nf.write(str(counts[0]))
     nf.write(" peer-reviewed workshop papers")
 

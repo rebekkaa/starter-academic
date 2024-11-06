@@ -3,9 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Rebekka Wohlrab # Website name
-baseurl: 'https://rebekkaa.github.io/' # Website URL
-copyright: "&copy; Rebekka Wohlrab {year}"
+# Website name
+title: Rebekka Wohlrab
+# Website URL
+baseURL: "/"
 
 ############################
 ## LANGUAGE
@@ -20,34 +21,47 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
+build:
+  writeStats: true
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  publication_types: '/publication-type/:slug/'
+  authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 80
   anchor: smart
 timeout: 600000
 taxonomies:
-  publication_type: publication_types
   author: authors
+  publication_type: publication_types
 markup:
   _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
+  highlight:
+    lineNos: false
 security:
   _merge: deep
 sitemap:
   _merge: deep
+cascade:
+  # Configure blog posts
+  - _target:
+      path: /publication/**
+    pager: true
+    editable: true
+    reading_time: false
+    commentable: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+    header:
+      navbar:
+        enable: false
