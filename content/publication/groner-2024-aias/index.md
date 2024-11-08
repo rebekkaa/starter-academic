@@ -11,4 +11,5 @@ publication_types:
 - paper-conference
 publication: '*Proc. of the 2024 IEEE International Conference on Autonomic Computing
   and Self-Organizing Systems Companion (ACSOS-C): AI4AS Workshop*'
+url_pdf: '/files/2024_ACSOS.pdf'
 ---

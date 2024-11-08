@@ -11,4 +11,5 @@ publishDate: '2024-11-06T20:24:34.969703Z'
 publication_types:
 - article-journal
 publication: '*Journal of Systems and Software*'
+url_pdf: 'files/2022_explaining_tradeoffs.pdf'
 ---

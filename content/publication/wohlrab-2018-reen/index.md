@@ -15,6 +15,6 @@ publication_types:
 publication: '*Requirements Engineering*'
 doi: 10.1007/s00766-018-0306-1
 links:
-- name: URL
-  url: https://doi.org/10.1007/s00766-018-0306-1
+- name: PDF
+  url_pdf: https://doi.org/10.1007/s00766-018-0306-1
 ---

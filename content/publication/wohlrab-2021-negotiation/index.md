@@ -10,6 +10,6 @@ publication_types:
 - article-journal
 publication: '*Requirements Engineering*'
 links:
-- name: URL
-  url: ''
+- name: PDF
+  url_pdf: 'files/2021_Wohlrab_utility_negotiation_accepted.pdf'
 ---

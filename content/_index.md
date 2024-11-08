@@ -3,7 +3,7 @@
 title: ""
 date: 2022-10-24
 type: landing
-title: Rebekka Wohlrab's personal website
+title: Rebekka Wohlrab
 
 design:
   # Default section spacing

@@ -11,6 +11,6 @@ publication_types:
 - article-journal
 publication: '*Journal of Systems and Software*'
 links:
-- name: URL
-  url: https://arxiv.org/abs/2001.01598
+- name: PDF
+  url_pdf: https://arxiv.org/abs/2001.01598
 ---

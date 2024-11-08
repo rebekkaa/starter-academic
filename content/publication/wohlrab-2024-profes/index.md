@@ -17,6 +17,6 @@ publication_types:
 publication: '*Proc. of the International Conference on Product-Focused Software Process
   Improvement (PROFES)*'
 links:
-- name: URL
-  url: ''
+- name: PDF
+  url_pdf: '/files/Wohlrab2024_PROFES.pdf'
 ---

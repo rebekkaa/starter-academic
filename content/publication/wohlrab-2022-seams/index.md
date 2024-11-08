@@ -10,4 +10,5 @@ publication_types:
 - paper-conference
 publication: '*Proc. of the 17th Symposium on Software Engineering for Adaptive and
   Self-Managing Systems (SEAMS 2022)*'
+url_pdf: '/files/Wohlrab2022-SEAMS-RuntimeQA-v1.pdf'
 ---

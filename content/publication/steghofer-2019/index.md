@@ -12,6 +12,6 @@ publication_types:
 publication: '*Proc. of the 20th International Conference on Product-Focused Software
   Process Improvement (PROFES)*'
 links:
-- name: URL
-  url: https://arxiv.org/abs/1911.12590
+- name: PDF
+  url_pdf: https://arxiv.org/abs/1911.12590
 ---

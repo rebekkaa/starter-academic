@@ -34,6 +34,6 @@ publication_types:
 - article-journal
 publication: '*Software and Systems Modeling*'
 links:
-- name: URL
-  url: https://arxiv.org/abs/2404.18682
+- name: PDF
+  url_pdf: https://arxiv.org/abs/2404.18682
 ---
