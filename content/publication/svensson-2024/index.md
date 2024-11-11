@@ -13,5 +13,6 @@ publication: '*Proc. of the International Conference on Product-Focused Software
   Improvement (PROFES)*'
 links:
 - name: PDF
-  url_pdf: '/files/Svensson2024_PROFES.pdf'
+  url_pdf: 'https://rebekkaa.github.io/files/Svensson2024_PROFES.pdf'
+  url: '/files/Svensson2024_PROFES.pdf'
 ---

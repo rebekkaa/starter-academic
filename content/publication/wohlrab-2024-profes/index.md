@@ -19,4 +19,5 @@ publication: '*Proc. of the International Conference on Product-Focused Software
 links:
 - name: PDF
   url_pdf: '/files/Wohlrab2024_PROFES.pdf'
+  url: '/files/Wohlrab2024_PROFES.pdf'
 ---
