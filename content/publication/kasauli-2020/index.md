@@ -16,5 +16,5 @@ publication: '*Proc. of the International Conference on Software and System Proc
   (ICSSP)*'
 links:
 - name: PDF
-  url_pdf: https://research.chalmers.se/en/publication/517056
+  url: https://research.chalmers.se/en/publication/517056
 ---

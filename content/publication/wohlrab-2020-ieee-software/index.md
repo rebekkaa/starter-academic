@@ -12,5 +12,5 @@ publication_types:
 publication: '*IEEE Software*'
 links:
 - name: PDF
-  url_pdf: https://arxiv.org/pdf/2005.09414
+  url: https://arxiv.org/pdf/2005.09414
 ---

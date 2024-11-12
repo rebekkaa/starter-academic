@@ -11,5 +11,5 @@ publication_types:
 publication: '*Requirements Engineering*'
 links:
 - name: PDF
-  url_pdf: 'files/2021_Wohlrab_utility_negotiation_accepted.pdf'
+  url: 'files/2021_Wohlrab_utility_negotiation_accepted.pdf'
 ---

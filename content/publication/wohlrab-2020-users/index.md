@@ -10,4 +10,5 @@ publication_types:
 - paper-conference
 publication: "*Proc. of the 16th European Conference on Modelling Foundations and
   Applications (ECMFA'20)*"
+url_pdf: https://research.chalmers.se/publication/521259/file/521259_Fulltext.pdf
 ---

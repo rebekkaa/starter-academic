@@ -14,5 +14,5 @@ publication: '*Journal of Systems and Software*'
 doi: https://doi.org/10.1016/j.jss.2022.111578
 links:
 - name: PDF
-  url_pdf: https://www.sciencedirect.com/science/article/pii/S0164121222002540
+  url: https://www.sciencedirect.com/science/article/pii/S0164121222002540
 ---

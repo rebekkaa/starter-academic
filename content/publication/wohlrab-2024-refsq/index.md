@@ -13,5 +13,5 @@ publication: '*Proc. of the 30th International Working Conference on Requirement
   Engineering - Foundation for Software Quality*'
 links:
 - name: PDF
-  url_pdf: 'https://rebekkaa.github.io/files/2024_REFSQ_OBJUST.pdf'
+  url: 'https://rebekkaa.github.io/files/2024_REFSQ_OBJUST.pdf'
 ---
