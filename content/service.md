@@ -15,6 +15,8 @@ sections:
       text: "
 Conferences I have been involved in recently:
 
+- [RE@Next! 2025](https://conf.researchr.org/track/RE-2025/RE-2025-re-next--papers), PC Member
+
 - [ICSA 2025](https://icsa-conferences.org/2025/), PC Member
 
 - [SEAMS 2025](https://conf.researchr.org/home/seams-2025), PC Member

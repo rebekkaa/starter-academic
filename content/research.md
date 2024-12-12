@@ -28,6 +28,8 @@ sections:
 
 ## Awards
 
+- 2024: Best Paper Award at [PROFES](https://rebekkaa.github.io/publication/svensson-2024/).
+
 - 2024: [WASP alumni of the year award](https://www.linkedin.com/posts/wasp-wallenberg-ai-autonomous-systems-and-software-program_waspwinterconference2024-wasp-activity-7150951094175621120-QUQI).
 
 - 2023: Best Paper Award at [ECSA](https://rebekkaa.github.io/files/DiazPace2023-ECSA.pdf).

@@ -11,4 +11,5 @@ publication_types:
 - paper-conference
 publication: '*Proc. of the 50th Euromicro Conference Series on Software Engineering
   and Advanced Applications (SEAA)*'
+url_pdf: "/files/2024_SEAA.pdf"
 ---
