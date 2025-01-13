@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu15982611272951754077.png</url>
       <title>Publications</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>A Reference Model for Empirically Comparing LLMs with Humans</title>
+      <link>/publication/schneider-2025/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Quality Trade-Offs in ML-Enabled Systems: A Multiple Case Study</title>
       <link>/publication/indykov-2025-sac/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>/publication/indykov-2025-sac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture Decision Records in Practice: An Action Research Study</title>
+      <link>/publication/ahmeti-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/ahmeti-2024/</guid>
       <description></description>
     </item>
     
@@ -65,14 +81,6 @@
       <link>/publication/welzel-2024-ares/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/publication/welzel-2024-ares/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducing Architecture Decision Records in Practice: An Action Research Study</title>
-      <link>/publication/ahmeti-2024/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/ahmeti-2024/</guid>
       <description></description>
     </item>
     

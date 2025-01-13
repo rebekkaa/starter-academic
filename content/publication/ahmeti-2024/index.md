@@ -1,5 +1,5 @@
 ---
-title: 'Introducing Architecture Decision Records in Practice: An Action Research
+title: 'Architecture Decision Records in Practice: An Action Research
   Study'
 authors:
 - Bardha Ahmeti
