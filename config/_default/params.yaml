@@ -58,3 +58,8 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+search:
+    summaryInclude: 180 # show only part of content in search result.
+    minMatchCharLength: 2 # https://www.fusejs.io/api/options.html#minmatchcharlength
+    threshold: 0.3 # https://www.fusejs.io/api/options.html#threshold

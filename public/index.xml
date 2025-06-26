@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Extracting Design Patterns from Mined Component Models of ML-Enabled Systems</title>
+      <link>/publication/eriksson-2025-seaa/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/eriksson-2025-seaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLTradeOps: Embedding Trade-Off Management into the MLOps Workflow</title>
+      <link>/publication/indykov-2025-seaa/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/indykov-2025-seaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Reference Model for Empirically Comparing LLMs with Humans</title>
       <link>/publication/schneider-2025/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
@@ -21,10 +37,50 @@
     </item>
     
     <item>
+      <title>Adaptive Resolution of Requirements Conflicts in Robot Mission Planning</title>
+      <link>/publication/garciadiaz-2025-refsq/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/garciadiaz-2025-refsq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architectural Tactics to Achieve Quality Attributes of Machine-Learning-Enabled Systems: A Systematic Literature Review</title>
+      <link>/publication/indykov-2025-jss/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/indykov-2025-jss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending Behavior Trees for Robotic Missions with Quality Requirements</title>
+      <link>/publication/ghzouli-2025-refsq/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/ghzouli-2025-refsq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Quality Trade-Offs in ML-Enabled Systems: A Multiple Case Study</title>
       <link>/publication/indykov-2025-sac/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>/publication/indykov-2025-sac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Value-Complemented Monitoring Framework for Humans in Cyber-Physical Systems</title>
+      <link>/publication/pfister-2025-refsq/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/pfister-2025-refsq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Behavior Trees in Risk Assessment</title>
+      <link>/publication/ghzouli-2025-etfa/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/ghzouli-2025-etfa/</guid>
       <description></description>
     </item>
     
@@ -101,6 +157,14 @@
     </item>
     
     <item>
+      <title>Not All Conflicts Are the Same: An Empirical Study of Requirement Conflicts in Practice</title>
+      <link>/welzel-2024-seaa/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/welzel-2024-seaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Supporting Early Architectural Decision-Making Through Tradeoff Analysis: A Study with Volvo Cars</title>
       <link>/publication/oqvist-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -153,6 +217,14 @@
       <link>/publication/wohlrab-2023-jss/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>/publication/wohlrab-2023-jss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Adoption and Effectiveness of Architecture Decision Records in Agile Software Development: An Action Research Study</title>
+      <link>/publication/ahmeti-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/ahmeti-2023/</guid>
       <description></description>
     </item>
     
@@ -410,9 +482,16 @@
 
 
 
-&lt;p&gt;&lt;strong&gt;[January 2025]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://conf.researchr.org/track/icse-2025/icse-2025-software-engineering-in-society&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE-SEIS&lt;/a&gt;. More information about the paper can be found &lt;a href=&#34;/publication/schneider-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[June 2025]&lt;/strong&gt; I am starting my maternity leave soon to take care of my little son. Very happy and excited for what lies ahead! I won&amp;rsquo;t be available for work activities for some time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[June 2025]&lt;/strong&gt; Two papers accepted at &lt;a href=&#34;https://dsd-seaa.com/seaa2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SEAA&lt;/a&gt;. You can find more information &lt;a href=&#34;/publication/indykov-2025-seaa/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;/publication/eriksson-2025-seaa/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[June 2025]&lt;/strong&gt; I have been appointed as a Future Research Leader by &lt;a href=&#34;https://strategiska.se/en/they-are-the-research-leaders-of-the-future-ffl9/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Swedish Foundation for Strategic Research (SSF)&lt;/a&gt; (approval rate 7.5%). It comes with a big grant (15 million SEK) and I will be hiring several PhD students and postdocs. Looking forward to getting started with the project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[May 2025]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://etfa2025.ieee-ies.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ETFA&#39;25&lt;/a&gt; on using behavior trees for risk assessment in robotics. More information can be found &lt;a href=&#34;/publication/ghzouli-2025-etfa/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[February 2025]&lt;/strong&gt; Paper accepted to JSS on architectural tactics for machine learning-enabled systems. &lt;a href=&#34;/publication/indykov-2025-jss/&#34;&gt;Here&lt;/a&gt; is more information and a preprint.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[January 2025]&lt;/strong&gt; In the January 2025 issue of the IT Faculty Magazine, a nice article was published about the pedagogical prize that I received after being nominated by my students. So glad about the award! You can find a scan of the article &lt;a href=&#34;/files/Pedagogical_Prize_Magazine.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[January 2025]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://conf.researchr.org/track/icse-2025/icse-2025-software-engineering-in-society&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE-SEIS&lt;/a&gt;. More information and a preprint can be found &lt;a href=&#34;/publication/schneider-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[January 2025]&lt;/strong&gt; Three papers accepted at &lt;a href=&#34;https://2025.refsq.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;REFSQ&lt;/a&gt;. One presents an &lt;a href=&#34;/publication/garciadiaz-2025-refsq/&#34;&gt;adaptive approach for resolving requirement conflicts&lt;/a&gt;, one is about &lt;a href=&#34;/publication/pfister-2025-refsq/&#34;&gt;integrating human values into requirements engineering for runtime monitoring&lt;/a&gt;, and the third one presents an &lt;a href=&#34;/publication/ghzouli-2025-refsq/&#34;&gt;extension of behavior trees for robotics with quality requirements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[December 2024]&lt;/strong&gt; Klara Svensson, Drake Axelrod, Mazen Mohamad, and I won the Best Paper Award for our &lt;a href=&#34;/publication/svensson-2024&#34;&gt;PROFES 2024 paper&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[November 2024]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://satta.polimi.it/2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAC&#39;25&lt;/a&gt;. More information about the paper can be found &lt;a href=&#34;/publication/indykov-2025-sac/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[November 2024]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://satta.polimi.it/2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAC&#39;25&lt;/a&gt;. A preprint can be found &lt;a href=&#34;/publication/indykov-2025-sac/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[November 2024]&lt;/strong&gt; I got a Starting Grant from &lt;a href=&#34;https://www.vr.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VR&lt;/a&gt; (the Swedish Research Council).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[November 2024]&lt;/strong&gt;  I will be serving on the program committee for &lt;a href=&#34;https://conf.researchr.org/track/RE-2025/RE-2025-re-next--papers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RE@Next! 2025&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[September 2024]&lt;/strong&gt; Papers accepted at &lt;a href=&#34;https://conf.researchr.org/home/profes-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PROFES&lt;/a&gt; (1) a study on &lt;a href=&#34;/publication/svensson-2024/&#34;&gt;developing secure web applications&lt;/a&gt;, (2) a vision paper on considering &lt;a href=&#34;/publication/wohlrab-2024-profes/&#34;&gt;human values in software engineering&lt;/a&gt;.&lt;/p&gt;
@@ -423,7 +502,7 @@
 &lt;p&gt;&lt;strong&gt;[June 2024]&lt;/strong&gt; Paper accepted at ECSA&#39;24. More information about the paper can be found &lt;a href=&#34;/publication/ahmeti-2024-ecsa/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[May 2024]&lt;/strong&gt; &lt;a href=&#34;/publication/holtmann-2024-sosym/&#34;&gt;Paper&lt;/a&gt; accepted to the &lt;a href=&#34;https://link.springer.com/journal/10270/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SoSyM journal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[May 2024]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://www.ares-conference.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ARES&#39;24&lt;/a&gt;. The preprint can be found &lt;a href=&#34;/publication/welzel-2024-ares/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[April 2024]&lt;/strong&gt; Paper accepted at &lt;a href=&#34;https://2024.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FSE&#39;24&lt;/a&gt;. More information about the paper can be found &lt;a href=&#34;/publication/oqvist-2024-fse/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[April 2024]&lt;/strong&gt; Paper accepted to the industry track of &lt;a href=&#34;https://2024.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FSE&#39;24&lt;/a&gt;. More information about the paper can be found &lt;a href=&#34;/publication/oqvist-2024/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[April 2024]&lt;/strong&gt; My new postdoc Raffaela Groner has started. Welcome to Sweden and to our group! :)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[March 2024]&lt;/strong&gt; I gave a talk at the seminar series of &lt;a href=&#34;https://www.tecosa.center.kth.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TECoSA&lt;/a&gt; - a Center for Trustworthy Edge Computing Systems and Applications at KTH in Stockholm.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[February 2024]&lt;/strong&gt; We got a paper accepted at &lt;a href=&#34;https://conf.researchr.org/home/icsa-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSA&#39;24&lt;/a&gt;. It is called &lt;a href=&#34;/publication/anthony-2024-icsa/&#34;&gt;We&amp;rsquo;re Drifting Apart: Architectural Drift from the Developers&amp;rsquo; Perspective&lt;/a&gt;.&lt;/p&gt;

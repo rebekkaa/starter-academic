@@ -57,3 +57,4 @@ public/service/index.html
 public/sitemap.xml
 public/teaching/index.html
 *.html
+*.Rhistory

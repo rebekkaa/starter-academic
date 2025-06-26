@@ -11,4 +11,5 @@ publication_types:
 - paper-conference
 publication: '*Proc. of the 24th International Working Conference on Requirements
   Engineering - Foundation for Software Quality (REFSQ)*'
+url_pdf: 'files/Wohlrab2018_REFSQ_Ethnography.pdf'
 ---

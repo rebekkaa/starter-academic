@@ -12,4 +12,5 @@ publication_types:
 - paper-conference
 publication: '*Proc. of the International Conference on Software Architecture (ICSA)*'
 doi: 10.1109/ICSA.2019.00025
+url_pdf: files/Wohlrab2019_ICSA_Interfaces.pdf
 ---

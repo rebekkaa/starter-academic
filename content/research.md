@@ -14,17 +14,19 @@ sections:
       
 ## Grants and Awards
 
-- 2024: [VR Starting Grant: ExpRESAS: Expectation-Focused Requirements Elicitation for Self-Adaptive Systems](https://www.vr.se/english/applying-for-funding/calls/2023-11-15-starting-grant-within-natural-and-engineering-sciences.html). PI.
+- 2025: [SSF Future Research Leaders Grant: Coordinating Teams of Multiple Humans and Autonomous Systems](https://strategiska.se/en/apply-for-ssf-future-research-leader-2/). Single PI.
 
-- 2023: [WASP Academic PhD Project on Conflict Resolution for Autonomous Systems](https://wasp-sweden.org/opportunities/calls/). PI.
+- 2024: [VR Starting Grant: ExpRESAS: Expectation-Focused Requirements Elicitation for Self-Adaptive Systems](https://www.vr.se/english/applying-for-funding/calls/2023-11-15-starting-grant-within-natural-and-engineering-sciences.html). Single PI.
+
+- 2023: [WASP Academic PhD Project on Conflict Resolution for Autonomous Systems](https://wasp-sweden.org/opportunities/calls/). Single PI.
 
 - 2023: [WASP NEST ShiftLeft: Securing the Software Supply Chain by Code-centric Analysis](https://wasp-sweden.org/). Co-PI.
 
-- 2023: [WASP Assistant Professor Starting Package](https://wasp-sweden.org/opportunities/calls/): Funding for my own position, as well as 2 PhD students and 2 postdocs. PI.
+- 2023: [WASP Assistant Professor Starting Package](https://wasp-sweden.org/opportunities/calls/): Funding for my own position, as well as 2 PhD students and 2 postdocs. Single PI.
 
 - 2023: IT Faculty [Pedagogical Prize 2023](https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/), University of Gothenburg. 100,000 SEK.
 
-- 2020: [WASP Postdoctoral Scholarship](https://wasp-sweden.org/opportunities/wasp-postdoc/). Grant for my postdoctoral research at Carnegie Mellon University. PI.
+- 2020: [WASP Postdoctoral Scholarship](https://wasp-sweden.org/opportunities/wasp-postdoc/). Grant for my postdoctoral research at Carnegie Mellon University. Single PI.
 
 ## Awards
 

@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 13, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: June 26, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
   
 
   
@@ -233,6 +233,24 @@
   
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -545,40 +563,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -606,8 +651,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -713,6 +758,20 @@
         <a
           class="nav-link "
           
+          href="/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
           href="/teaching"
         >Teaching</a
         >
@@ -742,9 +801,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -785,8 +844,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -904,12 +981,13 @@
   
   <div class="prose prose-slate dark:prose-invert max-w-prose"><h2 id="grants-and-awards">Grants and Awards</h2>
 <ul>
-<li>2024: <a href="https://www.vr.se/english/applying-for-funding/calls/2023-11-15-starting-grant-within-natural-and-engineering-sciences.html" target="_blank" rel="noopener">VR Starting Grant: ExpRESAS: Expectation-Focused Requirements Elicitation for Self-Adaptive Systems</a>. PI.</li>
-<li>2023: <a href="https://wasp-sweden.org/opportunities/calls/" target="_blank" rel="noopener">WASP Academic PhD Project on Conflict Resolution for Autonomous Systems</a>. PI.</li>
+<li>2025: <a href="https://strategiska.se/en/apply-for-ssf-future-research-leader-2/" target="_blank" rel="noopener">SSF Future Research Leaders Grant: Coordinating Teams of Multiple Humans and Autonomous Systems</a>. Single PI.</li>
+<li>2024: <a href="https://www.vr.se/english/applying-for-funding/calls/2023-11-15-starting-grant-within-natural-and-engineering-sciences.html" target="_blank" rel="noopener">VR Starting Grant: ExpRESAS: Expectation-Focused Requirements Elicitation for Self-Adaptive Systems</a>. Single PI.</li>
+<li>2023: <a href="https://wasp-sweden.org/opportunities/calls/" target="_blank" rel="noopener">WASP Academic PhD Project on Conflict Resolution for Autonomous Systems</a>. Single PI.</li>
 <li>2023: <a href="https://wasp-sweden.org/" target="_blank" rel="noopener">WASP NEST ShiftLeft: Securing the Software Supply Chain by Code-centric Analysis</a>. Co-PI.</li>
-<li>2023: <a href="https://wasp-sweden.org/opportunities/calls/" target="_blank" rel="noopener">WASP Assistant Professor Starting Package</a>: Funding for my own position, as well as 2 PhD students and 2 postdocs. PI.</li>
+<li>2023: <a href="https://wasp-sweden.org/opportunities/calls/" target="_blank" rel="noopener">WASP Assistant Professor Starting Package</a>: Funding for my own position, as well as 2 PhD students and 2 postdocs. Single PI.</li>
 <li>2023: IT Faculty <a href="https://www.medarbetarportalen.gu.se/internt-itufak/teaching-learning/pedagogical-prize/" target="_blank" rel="noopener">Pedagogical Prize 2023</a>, University of Gothenburg. 100,000 SEK.</li>
-<li>2020: <a href="https://wasp-sweden.org/opportunities/wasp-postdoc/" target="_blank" rel="noopener">WASP Postdoctoral Scholarship</a>. Grant for my postdoctoral research at Carnegie Mellon University. PI.</li>
+<li>2020: <a href="https://wasp-sweden.org/opportunities/wasp-postdoc/" target="_blank" rel="noopener">WASP Postdoctoral Scholarship</a>. Grant for my postdoctoral research at Carnegie Mellon University. Single PI.</li>
 </ul>
 <h2 id="awards">Awards</h2>
 <ul>
@@ -1106,6 +1184,140 @@
     
 
   <span >
+      Erik Eriksson</span>, <span >
+      Joel Olausson</span>, <span >
+      Vladislav Indykov</span>, <span >
+      Daniel Strüber</span>, <span >
+      Rebekka Wohlrab</span>
+  </span>
+  (2025).
+  <a href="/publication/eriksson-2025-seaa/" class="underline">Extracting Design Patterns from Mined Component Models of ML-Enabled Systems</a>.
+  <em>Proc. of the 51st Euromicro Conference Series on Software Engineering and Advanced Applications (SEAA)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/eriksson-2025-seaa/cite.bib" target="_blank" data-filename="/publication/eriksson-2025-seaa/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Vladislav Indykov</span>, <span >
+      Daniel Strüber</span>, <span >
+      Rebekka Wohlrab</span>
+  </span>
+  (2025).
+  <a href="/publication/indykov-2025-seaa/" class="underline">MLTradeOps: Embedding Trade-Off Management into the MLOps Workflow</a>.
+  <em>Proc. of the 51st Euromicro Conference Series on Software Engineering and Advanced Applications (SEAA)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/indykov-2025-seaa/cite.bib" target="_blank" data-filename="/publication/indykov-2025-seaa/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
       Kurt Schneider</span>, <span >
       Farnaz Fotrousi</span>, <span >
       Rebekka Wohlrab</span>
@@ -1179,13 +1391,15 @@
     
 
   <span >
-      Vladislav Indykov</span>, <span >
-      Rebekka Wohlrab</span>, <span >
-      Daniel Strüber</span>
+      Juan García Díaz</span>, <span >
+      Carlotta Hillger</span>, <span >
+      Antonia Welzel</span>, <span >
+      Raffaela Groner</span>, <span >
+      Rebekka Wohlrab</span>
   </span>
   (2025).
-  <a href="/publication/indykov-2025-sac/" class="underline">Quality Trade-Offs in ML-Enabled Systems: A Multiple Case Study</a>.
-  <em>Proc. of the 40th ACM/SIGAPP Symposium On Applied Computing (SAC 2025)</em>.
+  <a href="/publication/garciadiaz-2025-refsq/" class="underline">Adaptive Resolution of Requirements Conflicts in Robot Mission Planning</a>.
+  <em>Proc. of the 31th International Working Conference on Requirements Engineering - Foundation for Software Quality</em>.
   
 
   
@@ -1205,7 +1419,7 @@
 
 
 
-<a class="hb-attachment-link hb-attachment-small" href="/publication/indykov-2025-sac/cite.bib" target="_blank" data-filename="/publication/indykov-2025-sac/cite.bib">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/garciadiaz-2025-refsq/cite.bib" target="_blank" data-filename="/publication/garciadiaz-2025-refsq/cite.bib">
   <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>
@@ -1245,14 +1459,13 @@
     
 
   <span >
-      Bardha Ahmeti</span>, <span >
-      Maja Linder</span>, <span >
-      Raffaela Groner</span>, <span >
+      Vladislav Indykov</span>, <span >
+      Daniel Strüber</span>, <span >
       Rebekka Wohlrab</span>
   </span>
-  (2024).
-  <a href="/publication/ahmeti-2024/" class="underline">Architecture Decision Records in Practice: An Action Research Study</a>.
-  <em>Proc. of the 18th European Conference on Software Architecture (ECSA 2024)</em>.
+  (2025).
+  <a href="/publication/indykov-2025-jss/" class="underline">Architectural Tactics to Achieve Quality Attributes of Machine-Learning-Enabled Systems: A Systematic Literature Review</a>.
+  <em>Journal of Systems and Software</em>.
   
 
   
@@ -1272,148 +1485,14 @@
 
 
 
-<a class="hb-attachment-link hb-attachment-small" href="https://rebekkaa.github.io/files/2024_ECSA.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://www.danielstrueber.de/publications/ISW-JSS25.pdf" target="_blank" rel="noopener">
   <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
 
 
-<a class="hb-attachment-link hb-attachment-small" href="/publication/ahmeti-2024/cite.bib" target="_blank" data-filename="/publication/ahmeti-2024/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      David Garlan</span>, <span >
-      Bradley Schmerl</span>, <span >
-      Rebekka Wohlrab</span>, <span >
-      Javier Cámara</span>
-  </span>
-  (2024).
-  <a href="/publication/garlan-2024/" class="underline">Challenges in Creating Effective Automated Design Environments: An experience report from the domain of generative manufacturing</a>.
-  <em>Proc. of the 1st International Workshop on Designing Software</em>.
-  
-
-  
-  <div class="flex flex-wrap space-x-3">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/garlan-2024/cite.bib" target="_blank" data-filename="/publication/garlan-2024/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Tiziano Santilli</span>, <span >
-      Patrizio Pelliccione</span>, <span >
-      Rebekka Wohlrab</span>, <span >
-      Ali Shahrokni</span>
-  </span>
-  (2024).
-  <a href="/publication/santilli-2024/" class="underline">Continuous Compliance in the Automotive Industry</a>.
-  <em>IEEE Software</em>.
-  
-
-  
-  <div class="flex flex-wrap space-x-3">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/santilli-2024/cite.bib" target="_blank" data-filename="/publication/santilli-2024/cite.bib">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/indykov-2025-jss/cite.bib" target="_blank" data-filename="/publication/indykov-2025-jss/cite.bib">
   <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>

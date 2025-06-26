@@ -13,4 +13,5 @@ publication_types:
 publication: '*Proc. of the 2019 IEEE International Conference on Software Architecture
   (ICSA)*'
 doi: 10.1109/ICSA.2019.00024
+url_pdf: files/icsa_19_guidelines.pdf
 ---

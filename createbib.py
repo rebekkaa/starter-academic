@@ -137,32 +137,41 @@ def merge_files(folder_path, counts):
                             counts[3]+=1
                             nf.close()
                     else:
-                        if 'workshop' in (''.join(lines_in_file)).lower():
-                            with open(my_folder_path+"/workshops.bib", 'a') as nf:
-                                # open files to merge in read mode
+                        if 'womencourage' in (''.join(lines_in_file)).lower():
+                            with open(my_folder_path+"/unrefereed.bib", 'a') as nf:
+                            # open files to merge in read mode
                                 nf.writelines(lines_in_file)
                                 # insert a newline after reading each file
                                 nf.write("\n")
-                                counts[0]+=1
+                                counts[3]+=1
                                 nf.close()
                         else:
-                            if 'article' in (''.join(lines_in_file)).lower():
-                                with open(my_folder_path+"/journals.bib", 'a') as nf:
-                                # open files to merge in read mode
+                            if 'workshop' in (''.join(lines_in_file)).lower():
+                                with open(my_folder_path+"/workshops.bib", 'a') as nf:
+                                    # open files to merge in read mode
                                     nf.writelines(lines_in_file)
                                     # insert a newline after reading each file
                                     nf.write("\n")
-                                    counts[1]+=1
-                                    nf.close()        
+                                    counts[0] += 1
+                                    nf.close()
                             else:
-                                if 'inproceedings' in (''.join(lines_in_file)).lower():
-                                    with open(my_folder_path+"/conferences.bib", 'a') as nf:
-                                        # open files to merge in read mode
+                                if 'article' in (''.join(lines_in_file)).lower():
+                                    with open(my_folder_path+"/journals.bib", 'a') as nf:
+                                    # open files to merge in read mode
                                         nf.writelines(lines_in_file)
                                         # insert a newline after reading each file
                                         nf.write("\n")
-                                        counts[2]+=1
-                                        nf.close()
+                                        counts[1]+=1
+                                        nf.close()        
+                                else:
+                                    if 'inproceedings' in (''.join(lines_in_file)).lower():
+                                        with open(my_folder_path+"/conferences.bib", 'a') as nf:
+                                            # open files to merge in read mode
+                                            nf.writelines(lines_in_file)
+                                            # insert a newline after reading each file
+                                            nf.write("\n")
+                                            counts[2]+=1
+                                            nf.close()
     return counts
 
 # Call function from the main folder with the subfolders
